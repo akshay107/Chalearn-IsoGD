@@ -68,13 +68,13 @@ def step_decay(epoch):
 	return lrate
 
 '''
-sys.argv[1] is the directory of train_lines_new.txt and val_lines_new.txt. Make sure it's the same directory where train folder is located
+sys.argv[1] is the directory of train folder
 '''
 
-f_train=open(sys.argv[1]+"train_lines_new.txt","r").read()
+f_train=open("train_lines_new.txt","r").read()
 train_lines=f_train.split("\n")
 train_lines=train_lines[:len(train_lines)-1]
-f_val=open(sys.argv[1]+"val_lines_new.txt","r").read()
+f_val=open("val_lines_new.txt","r").read()
 val_lines=f_val.split("\n")
 val_lines=val_lines[:len(val_lines)-1]
 print(len(train_lines),len(val_lines))
