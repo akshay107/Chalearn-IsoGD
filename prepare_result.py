@@ -29,7 +29,6 @@ os.chdir(sys.argv[1])
 
 pred=[]
 
-lines = lines[:100]
 for i in range(len(lines)):
 	print(lines[i])
 	dep = get_frames_dep(lines[i].split(" ")[1])
@@ -66,8 +65,6 @@ lines = f.split("\n")
 
 if lines[-1]=='':
 	lines=lines[:-1]
-
-lines = lines[:100]
 
 f_out = open("prediction.txt","a")
 
