@@ -19,7 +19,9 @@ A new folder named diff-frames will be created in the same directory. Similarly,
 ```
 sudo python prepare_result.py /home/akshay/IsoGD/IsoGD_phase_2/ test_list.txt
 ```
-Make sure that test folder and test_list.txt are in the same directory. This program will create a file named prediction.txt in that particular directory (in this case /home/akshay/IsoGD/IsoGD_phase_2/).
+**Make sure that all the test videos are inside a folder named test and test folder and test_list.txt are in the same directory.** 
+
+This program will create a file named prediction.txt in that particular directory (in this case /home/akshay/IsoGD/IsoGD_phase_2/).
 
 * For training the model from scratch, run the files train_rgb.py and train_dep.py by providing the path to the train folder e.g
 
