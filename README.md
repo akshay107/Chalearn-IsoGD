@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-The code was written in python 2.7 and uses following packages
+The code is written in python 2.7 and uses following packages
 * Theano 0.8.2 (https://github.com/Theano/Theano/tree/0.8.X)
 * Keras v1.2.2 (THEANO backend) (https://github.com/fchollet/keras/tree/keras-1)
 * OpenCV-Python 3.1.0 with CUDA support (To install, follow these instructions: http://www.pyimagesearch.com/2016/07/11/compiling-opencv-with-cuda-support/) 
