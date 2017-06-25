@@ -36,7 +36,7 @@ python diff_frames.py /home/akshay/IsoGD/IsoGD_phase_2/ test_list.txt
 A new folder named diff-frames-test will be created in the directory provided (in this case /home/akshay/IsoGD/IsoGD_phase_2/).
 
 * Copy the two weight files (weights-rgb.h5 and weights-dep.h5) to the same folder where this repository was downloaded. 
-You can either use the weight files in this repository or the weight files obtained after you trained the model.
+You can either use the weight files in this repository or the weight files obtained after training the model.
 
 * Run the file prepare_result.py by providing path to the file test_list.txt e.g.
 ```
